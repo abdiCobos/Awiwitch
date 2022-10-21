@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(251, 246, 226);
+}
+
+.fondomorado{
+    background-image: url("/assets/nube.png");
+    position: relative; 
+}
+
+.navbar{
+    background-color: #F8BD49;
+    
+}
+
+.btn-danger{
+    background-color: #C23320;
+    border-color: #C23320;
+    border-radius: 20px;
+}
+
+.texto{
+    padding-left: 5%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo1{
+    font-family: 'Abril Fatface';
+    font-size: 50px;
+    align-items: center;
+    color: #E79629;
+}
+
+.titulo2{
+    font-family: 'Creepster';
+    font-size: 70px;
+    align-items: center;
+    color: #E79629;
+}
+
+.luna{
+    width: 440px;
+    position: absolute;
+    bottom: -200px;
+    right: 10px;
+}
