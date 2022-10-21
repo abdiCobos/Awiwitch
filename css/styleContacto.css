@@ -1,6 +1,39 @@
 body{
     background-color: #4E1353;
 }
-nav, div{
-    background-color: #F8BD49;
+#tela{
+    display: inline-block;
+}
+.tela{
+    position: relative;
+}
+.img-tela{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+.texto{
+    color: #FBF6E2;
+    position: relative;
+    z-index: 99;
+}
+.back{
+    background-color: #FBF6E2;
+}
+.Abril{
+    font-family: 'Abril Fatface';
+    font-size: 30px;
+}
+.Poppins{
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+.Creepster{
+    font-family: 'Creepster';
+    font-size: 34px;
+}
+
+#guarda{
+    background-color: whitesmoke;
 }
