@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+body{
+    position: relative;
+    margin-top: 3%;
+    height: 100vh;
+    
+    background-color: #FBF6E2;
+}
+h1{
+    font-family: 'Creepster', cursive;
+    font-size: 40px;
+    color: #E79629;
+    margin: 5%;
+}
+.proy-descrip{
+    font-family: poppins;
+    color: #E79629;
+}
+.fondomorado{
+    background-image: url("img/nube.png");
+    position: relative; 
+}
+/*Animaciones bruja*/
+.bruja img{
+    position: absolute;
+    margin-left: 90px;
+    margin-top: -40px;
+}
+
+.bruja {
+    animation-duration: 2s;
+    animation-name: bruja;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+  }
+  
+  @keyframes bruja {
+    from {
+      margin-left:100%;
+      width:300%
+    }
+  
+    to {
+     margin-left:0%;
+     width:100%;
+   }
+  }
+
+/*Animaciones amurcielago*/
+.murcielago img{
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 300px;
+}
+
+.murcielago {
+    animation-duration: 2s;
+    animation-name: bruja;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+  }
+  
+  @keyframes murcielago {
+    from {
+      margin-bottom:100%;
+      width:300%
+    }
+  
+    to {
+     margin-bottom:0%;
+     width:100%;
+   }
+  }
+  
+
+
+.member{
+    padding: 30px;
+}
+h4{
+    font-family: 'Creepster', cursive;
+}
+.img-team img{
+    border-radius: 20px 60px;
+    box-shadow: 0 0 10px #4E1353;
+}
+.img-team{
+    margin: 0;
+}
+.padding-0{
+    padding-left: 0;
+    padding-right: 0;
+}
+.desc-teamRight, .desc-teamLeft{
+    height: 80%;
+    width: 80%;
+    margin: 0;
+    background: #F8BD49;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 0 10px #4E1353;
+    margin-top: 5%;  /*Modificar con media queries para que no se separe*/
+}
+
+.desc-teamRight p, .desc-teamLeft p{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+/*
+
+    left: 40%;
+    top:25%;
+    transform: translateY(-50%);
+
+.desc-teamL p{
+    right: 45%;
+    bottom:24%;
+    transform: translateY(50%);
+    
+}
+*/

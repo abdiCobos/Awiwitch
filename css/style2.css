@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+body{
+    background-color: #FBF6E2;
+    font-family: 'Poppins', sans-serif;
+}
+.TitCategorias, h5{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+.vl {
+    border-left: 3px solid #4E1353;
+    height: 509px;
+    padding-left: 1rem;
+    margin-left: 1rem;
+  }
+  .arania1{
+    position: absolute;
+    margin-left: 80px;
+    max-width: 28%;
+  }
+  .arania1 :hover{
+    transform: translateX(10px);
+    transition: 0.5s;
+  }
+  .arania2{
+    position: absolute;
+    margin-left: 290px;
+    max-width: 40%;
+  }
+  .img-subcat{
+    border-radius: 0.7rem;
+  }
+.SubCategoria{
+  font-size: 20px;
+  font-family: 'Creepster', cursive;
+  text-align: right;
+  padding-right: 1rem;
+}
+.txt-SubCat{
+  text-align: left;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  word-wrap: break-word;
+}
+.hl{
+  border: 2px solid red;
+}
+.h4{
+  display: flex; 
+  justify-content:center; 
+  align-items: center;
+}
+
+.circulo{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  }
+.userOpinion{
+  font-size: 12px;
+  font-family: 'Creepster', cursive;
+  text-align: left;
+  
+  
+}
+.opinion{
+  font-size: 14px;
+  text-align: left;
+  word-wrap: break-word;
+}
+footer{
+  height: 90px;
+  background-color: #F8BD49;
+}
+a:link {
+  color: #E79629;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  background: #4E1353;
+  border-radius: 2px;
+}
+
+
