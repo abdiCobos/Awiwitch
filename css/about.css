@@ -1,13 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
-body{
-    position: relative;
-    margin-top: 3%;
-    height: 100vh;
-    
-    background-color: #FBF6E2;
+.img-logo{
+    height: 80px;
 }
+.navbar-nav a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.section-nav{
+    background-image: url(../assets/mel-t01.png);
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    background-position-x: center;
+    height: 300px;
+    top: 0px;
+}
+
+
 h1{
     font-family: 'Creepster', cursive;
     font-size: 40px;
@@ -19,8 +31,13 @@ h1{
     color: #E79629;
 }
 .fondomorado{
-    background-image: url("img/nube.png");
+    background-image: url("../assets/nube.png");
     position: relative; 
+    margin-top: 100px;
+    padding-top: 200px;
+}
+.navbar{
+    background-color: #F8BD49;
 }
 /*Animaciones bruja*/
 .bruja img{
