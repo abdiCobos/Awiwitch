@@ -3,7 +3,7 @@ body{
 }
 .fondomorado{
     background-color:#F8BD49 ;
-    background-image: url("/assets/nube.png");
+    background-image: url("assets/nube.png");
     position: relative; 
     margin-top: 106px;
     padding-top: 10px;
@@ -54,7 +54,9 @@ body{
     bottom: -300px;
     right: 10px;
 }
-
+.boton-slider {
+    text-align: center;
+}
 
 /***** NAVBAR *****/
 
