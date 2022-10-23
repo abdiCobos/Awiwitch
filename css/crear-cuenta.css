@@ -7,7 +7,7 @@
     font-weight: 700;
 }
 .section-nav{
-    background-image: url(../assets/images/mel-t01.png);
+    background-image: url(../assets/mel-t01.png);
     background-size: cover;
     position: absolute;
     width: 100%;
@@ -19,8 +19,10 @@
 
 /********************************************** BODY ****/
 .contenedor1{
-    border:10px solid red;
-    min-height: 90vh;
+    min-height: 65vh;
+    margin: auto;
+    margin-top: 180px;
+    padding: 80px 0px;
 }
 
 .navbar-color{
