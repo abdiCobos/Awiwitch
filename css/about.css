@@ -9,7 +9,6 @@
     font-weight: 700;
 }
 .section-nav{
-    background-image: url(../assets/mel-t01.png);
     background-size: cover;
     position: absolute;
     width: 100%;
@@ -19,25 +18,17 @@
     top: 0px;
 }
 
-
-h1{
-    font-family: 'Creepster', cursive;
-    font-size: 40px;
-    color: #E79629;
-    margin: 5%;
-}
-.proy-descrip{
-    font-family: poppins;
-    color: #E79629;
-}
 .fondomorado{
     background-image: url("../assets/nube.png");
     position: relative; 
-    margin-top: 100px;
+    margin-top: -20px;
     padding-top: 200px;
 }
 .navbar{
     background-color: #F8BD49;
+}
+.team{
+    margin: auto;
 }
 /*Animaciones bruja*/
 .bruja img{
@@ -51,9 +42,9 @@ h1{
     animation-name: bruja;
     animation-iteration-count: 3;
     animation-direction: alternate;
-  }
-  
-  @keyframes bruja {
+}
+
+@keyframes bruja {
     from {
       margin-left:100%;
       width:300%
@@ -63,8 +54,31 @@ h1{
      margin-left:0%;
      width:100%;
    }
-  }
+}
 
+.proy-descrip{
+    margin: 12px;
+    padding: 50px;
+}
+
+.DescriptionAbout p{
+    font-family: 'Poppins', sans-serif;
+    color: #FBF6E2;
+    text-align: justify;
+    font-size: 15px;
+}
+.DescriptionTitle h1{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    color: #FBF6E2;
+    font-size: 36px;
+}
+.DescriptionTitle h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #FBF6E2;
+    font-size: 32px;
+}
 /*Animaciones amurcielago*/
 .murcielago img{
     position: absolute;
@@ -77,9 +91,9 @@ h1{
     animation-name: bruja;
     animation-iteration-count: 3;
     animation-direction: alternate;
-  }
-  
-  @keyframes murcielago {
+}
+
+@keyframes murcielago {
     from {
       margin-bottom:100%;
       width:300%
@@ -89,42 +103,54 @@ h1{
      margin-bottom:0%;
      width:100%;
    }
-  }
-  
+}
 
-
+.vl{
+    height: 5px;   
+    background-color: #FBF6E2;
+}
 .member{
     padding: 30px;
 }
 h4{
     font-family: 'Creepster', cursive;
 }
-.img-team img{
-    border-radius: 20px 60px;
-    box-shadow: 0 0 10px #4E1353;
-}
 .img-team{
-    margin: 0;
+    margin-left: 20%;
 }
-.padding-0{
-    padding-left: 0;
-    padding-right: 0;
-}
-.desc-teamRight, .desc-teamLeft{
-    height: 80%;
-    width: 80%;
-    margin: 0;
-    background: #F8BD49;
-    border-radius: 12px;
-    padding: 25px;
+.img-team img{
+    width: 230px;
+    border-radius: 50%;
     box-shadow: 0 0 10px #4E1353;
-    margin-top: 5%;  /*Modificar con media queries para que no se separe*/
+}
+.desc-team{
+    text-align: justify;
+    margin: 0;
+    
+    margin-left: -360px;
+}
+.desc-team h4{
+    font-size: 20px;
+    font-family: 'Creepster', sans-serif;
+    color: #FBF6E2;
+    columns: #FBF6E2;
 }
 
-.desc-teamRight p, .desc-teamLeft p{
-    font-size: 14px;
+.desc-team p{
+    font-size: 18px;
     font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #FBF6E2;
 }
+.contact-team{
+    width: 3%;
+    display: block;
+}
+.linkedin img, .gmail img{
+    height: 35px;
+    width: 35px;
+}
+
 /*
 
     left: 40%;
